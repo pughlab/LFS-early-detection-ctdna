@@ -1,0 +1,107 @@
+sample_ID	TP53_germline	TP53_somatic	vaf	BRCA1	BRCA2	PALB2	MLH1	MSH2	MSH6	PMS2	EPCAM	APC
+TGL49_0010_Cf_U_PE_334_TS	failed											
+TGL49_0018_Cf_U_PE_402_TS	frameshift								stop			
+TGL49_0025_Cf_U_PE_334_TS	failed											
+TGL49_0025_Cf_U_PE_394_TS	splice_site											
+TGL49_0028_Cf_n_PE_384_TS	frameshift											
+TGL49_0028_Cf_U_PE_329_TS	frameshift				missense							
+TGL49_0029_Cf_n_PE_393_TS	stop											
+TGL49_0029_Cf_n_PE_397_TS	stop											
+TGL49_0029_Cf_U_PE_330_TS	stop											
+TGL49_0029_Cf_U_PE_381_TS	stop				missense							
+TGL49_0030_Cf_U_PE_331_TS	missense											
+TGL49_0031_Cf_n_PE_392_TS	missense											
+TGL49_0031_Cf_n_PE_401_TS	missense											
+TGL49_0031_Cf_U_PE_396_TS	missense											
+TGL49_0032_Cf_U_PE_381_TS	missense	missense; splice_site	0.1285			missense						missense
+TGL49_0033_Cf_U_PE_383_TS	splice_site						missense					
+TGL49_0034_Cf_n_PE_377_TS	frameshift											
+TGL49_0034_Cf_n_PE_382_TS	frameshift											
+TGL49_0034_Cf_U_PE_344_TS	frameshift											
+TGL49_0035_Cf_U_PE_370_TS												
+TGL49_0036_Cf_U_PE_337_TS	splice_site											
+TGL49_0037_Cf_U_PE_323_TS	missense											
+TGL49_0038_Cf_U_PE_329_TS	missense			missense								
+TGL49_0039_Cf_n_PE_394_TS	splice_site											
+TGL49_0039_Cf_n_PE_402_TS	splice_site	missense	0.0138	missense								
+TGL49_0039_Cf_n_PE_414_TS	splice_site											
+TGL49_0040_Cf_U_PE_327_TS	missense											
+TGL49_0041_Cf_U_PE_327_TS	missense											
+TGL49_0042_Cf_U_PE_327_TS	splice_site											
+TGL49_0043_Cf_U_PE_328_TS	splice_site											
+TGL49_0044_Cf_n_PE_382_TS	deletion											
+TGL49_0044_Cf_U_PE_326_TS	deletion											
+TGL49_0045_Cf_U_PE_329_TS	splice_site											
+TGL49_0046_Cf_U_PE_403_TS	splice_site	missense	0.0036									
+TGL49_0047_Cf_U_PE_328_TS	stop				stop							
+TGL49_0048_Cf_U_PE_325_TS	missense											
+TGL49_0049_Cf_U_PE_319_TS	splice_site											
+TGL49_0050_Cf_U_PE_319_TS	stop											
+TGL49_0051_Cf_n_PE_394_TS	missense											
+TGL49_0051_Cf_n_PE_396_TS	missense	frameshift										
+TGL49_0051_Cf_U_PE_323_TS	missense											
+TGL49_0052_Cf_n_PE_378_TS	missense											
+TGL49_0052_Cf_n_PE_396_TS	missense	missense; deletion	0.0032						frameshift			
+TGL49_0052_Cf_U_PE_420_TS	missense	missense	0.0039									
+TGL49_0053_Cf_U_PE_425_TS	splice_site	deletion				missense						
+TGL49_0054_Cf_U_PE_409_TS	missense											
+TGL49_0055_Cf_U_PE_374_TS	splice_site											
+TGL49_0056_Cf_U_PE_320_TS	missense											
+TGL49_0057_Cf_U_PE_372_TS	missense											
+TGL49_0058_Cf_n_PE_372_TS	splice_site	missense; missense2	0.0036		splice_site							
+TGL49_0058_Cf_n_PE_378_TS	splice_site	missense; frameshift	0.0057					missense		stop		
+TGL49_0058_Cf_U_PE_428_TS	splice_site	missense; missense2	0.0024					missense				
+TGL49_0059_Cf_U_PE_466_TS	missense											
+TGL49_0060_Cf_n_PE_403_TS	missense											
+TGL49_0061_Cf_U_PE_397_TS	missense	stop	0.0043									
+TGL49_0062_Cf_n_PE_351_TS	missense	missense; missense2	0.0095									
+TGL49_0062_Cf_n_PE_367_TS	missense	missense; missense2	0.0093						frameshift			
+TGL49_0062_Cf_U_PE_373_TS	missense	missense; missense2	0.0048							missense		
+TGL49_0063_Cf_U_PE_381_TS	missense											
+TGL49_0064_Cf_n_PE_438_TS	missense											
+TGL49_0064_Cf_U_PE_411_TS	missense											
+TGL49_0065_Cf_n_PE_403_TS	missense											
+TGL49_0065_Cf_U_PE_387_TS	missense											
+TGL49_0066_Cf_U_PE_364_TS	splice_site											
+TGL49_0067_Cf_U_PE_400_TS	missense											
+TGL49_0068_Cf_U_PE_468_TS	missense											
+TGL49_0102_Cf_U_PE_378_TS	missense											
+TGL49_0103_Cf_U_PE_365_TS	missense											
+TGL49_0105_Cf_U_PE_393_TS	splice_site						missense					
+TGL49_0106_Cf_U_PE_370_TS	splice_site											
+TGL49_0109_Cf_U_PE_373_TS	splice_site	missense	0.0619									
+TGL49_0119_Cf_U_PE_390_TS	missense				stop							
+TGL49_0121_Cf_U_PE_373_TS	missense											
+TGL49_0123_Cf_U_PE_382_TS	missense											missense
+TGL49_0131_Cf_U_PE_392_TS	splice_site						missense; missense2		missense			stop
+TGL49_0134_Cf_U_PE_414_TS	stop			missense				splice_site	frameshift			
+TGL49_0209_Cf_U_PE_378_TS	missense	missense	0.006									
+TGL49_0210_Cf_n_PE_376_TS	frameshift											missense
+TGL49_0210_Cf_U_PE_403_TS	frameshift	deletion										
+TGL49_0211_Cf_n_PE_374_TS	missense											
+TGL49_0211_Cf_U_PE_384_TS	missense											
+TGL49_0212_Cf_U_PE_367_TS	missense	deletion										missense
+TGL49_0213_Cf_n_PE_379_TS	deletion											
+TGL49_0213_Cf_n_PE_401_TS	deletion											
+TGL49_0213_Cf_U_PE_372_TS	deletion											
+TGL49_0214_Cf_n_PE_382_TS		deletion								stop		
+TGL49_0215_Cf_n_PE_395_TS	missense											
+TGL49_0216_Cf_n_PE_403_TS	missense											
+TGL49_0217_Cf_n_PE_412_TS	missense											
+TGL49_0218_Cf_n_PE_417_TS	missense	deletion										
+TGL49_0219_Cf_n_PE_395_TS	missense											
+TGL49_0220_Cf_n_PE_392_TS	missense											
+TGL49_0221_Cf_n_PE_395_TS	missense											
+TGL49_0222_Cf_n_PE_378_TS	missense											
+TGL49_0223_Cf_n_PE_392_TS	missense											
+TGL49_0315_Cf_n_PE_395_TS	frameshift											frameshift
+TGL49_0316_Cf_n_PE_378_TS	missense					missense						
+TGL49_0319_Cf_n_PE_361_TS	frameshift					missense						
+TGL49_0322_Cf_n_PE_360_TS	deletion				frameshift							
+TGL49_0322_Cf_n_PE_383_TS	deletion											
+TGL49_0328_Cf_n_PE_384_TS	missense											
+TGL49_0329_Cf_n_PE_401_TS	splice_site	missense	0.62									
+TGL49_0335_Cf_n_PE_396_TS	missense											
+TGL49_0337_Cf_n_PE_405_TS	missense											
+TGL49_0346_Cf_n_PE_417_TS	missense	missense	0.4									
+TGL49_0355_Cf_n_PE_360_TS	missense											

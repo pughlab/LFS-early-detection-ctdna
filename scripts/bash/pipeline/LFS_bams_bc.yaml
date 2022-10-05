@@ -1,0 +1,96 @@
+---
+TGL49_0029:
+    normal:
+        TGL49_0029_Ly_R_PE_357_TS_bc: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0029_Ly_R_PE_357_TS.all.unique.dcs.sorted.bam
+    tumour:
+        TGL49_0029_Ly_R_PE_357_TS_tm: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0029_Ly_R_PE_357_TS.all.unique.dcs.sorted.bam
+TGL49_0032:
+    normal:
+        TGL49_0032_Ly_R_PE_339_TS_bc: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0032_Ly_R_PE_339_TS.all.unique.dcs.sorted.bam
+    tumour:
+        TGL49_0032_Ly_R_PE_339_TS_tm: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0032_Ly_R_PE_339_TS.all.unique.dcs.sorted.bam
+TGL49_0051:
+    normal:
+        TGL49_0051_Ly_R_PE_344_TS_bc: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0051_Ly_R_PE_344_TS.all.unique.dcs.sorted.bam
+    tumour:
+        TGL49_0051_Ly_R_PE_344_TS_tm: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0051_Ly_R_PE_344_TS.all.unique.dcs.sorted.bam
+TGL49_0053:
+    normal:
+        TGL49_0053_Ly_R_PE_365_TS_bc: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0053_Ly_R_PE_365_TS.all.unique.dcs.sorted.bam
+    tumour:
+        TGL49_0053_Ly_R_PE_365_TS_tm: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0053_Ly_R_PE_365_TS.all.unique.dcs.sorted.bam
+TGL49_0058:
+    normal:
+        TGL49_0058_Ly_R_PE_365_TS_bc: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0058_Ly_R_PE_365_TS.all.unique.dcs.sorted.bam
+    tumour:
+        TGL49_0058_Ly_R_PE_365_TS_tm: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0058_Ly_R_PE_365_TS.all.unique.dcs.sorted.bam
+TGL49_0061:
+    normal:
+        TGL49_0061_Ly_R_PE_373_TS_bc: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0061_Ly_R_PE_373_TS.all.unique.dcs.sorted.bam
+    tumour:
+        TGL49_0061_Ly_R_PE_373_TS_tm: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0061_Ly_R_PE_373_TS.all.unique.dcs.sorted.bam
+TGL49_0210:
+    normal:
+        TGL49_0210_Ly_R_PE_384_TS_bc: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0210_Ly_R_PE_384_TS.all.unique.dcs.sorted.bam
+    tumour:
+        TGL49_0210_Ly_R_PE_384_TS_tm: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0210_Ly_R_PE_384_TS.all.unique.dcs.sorted.bam
+TGL49_0211:
+    normal:
+        TGL49_0211_Ly_R_PE_387_TS_bc: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0211_Ly_R_PE_387_TS.all.unique.dcs.sorted.bam
+    tumour:
+        TGL49_0211_Ly_R_PE_387_TS_tm: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0211_Ly_R_PE_387_TS.all.unique.dcs.sorted.bam
+TGL49_0212:
+    normal:
+        TGL49_0212_Ly_R_PE_376_TS_bc: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0212_Ly_R_PE_376_TS.all.unique.dcs.sorted.bam
+    tumour:
+        TGL49_0212_Ly_R_PE_376_TS_tm: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0212_Ly_R_PE_376_TS.all.unique.dcs.sorted.bam
+TGL49_0213:
+    normal:
+        TGL49_0213_Ly_R_PE_311_TS_bc: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0213_Ly_R_PE_311_TS.all.unique.dcs.sorted.bam
+    tumour:
+        TGL49_0213_Ly_R_PE_311_TS_tm: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0213_Ly_R_PE_311_TS.all.unique.dcs.sorted.bam
+TGL49_0215:
+    normal:
+        TGL49_0215_Ly_R_PE_320_TS_bc: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0215_Ly_R_PE_320_TS.all.unique.dcs.sorted.bam
+    tumour:
+        TGL49_0215_Ly_R_PE_320_TS_tm: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0215_Ly_R_PE_320_TS.all.unique.dcs.sorted.bam
+TGL49_0217:
+    normal:
+        TGL49_0217_Ly_R_PE_357_TS_bc: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0217_Ly_R_PE_357_TS.all.unique.dcs.sorted.bam
+    tumour:
+        TGL49_0217_Ly_R_PE_357_TS_tm: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0217_Ly_R_PE_357_TS.all.unique.dcs.sorted.bam
+TGL49_0218:
+    normal:
+        TGL49_0218_Ly_R_PE_345_TS_bc: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0218_Ly_R_PE_345_TS.all.unique.dcs.sorted.bam
+    tumour:
+        TGL49_0218_Ly_R_PE_345_TS_tm: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0218_Ly_R_PE_345_TS.all.unique.dcs.sorted.bam
+TGL49_0219:
+    normal:
+        TGL49_0219_Ly_R_PE_371_TS_bc: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0219_Ly_R_PE_371_TS.all.unique.dcs.sorted.bam
+    tumour:
+        TGL49_0219_Ly_R_PE_371_TS_tm: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0219_Ly_R_PE_371_TS.all.unique.dcs.sorted.bam
+TGL49_0220:
+    normal:
+        TGL49_0220_Ly_R_PE_364_TS_bc: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0220_Ly_R_PE_364_TS.all.unique.dcs.sorted.bam
+    tumour:
+        TGL49_0220_Ly_R_PE_364_TS_tm: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0220_Ly_R_PE_364_TS.all.unique.dcs.sorted.bam
+TGL49_0221:
+    normal:
+        TGL49_0221_Ly_R_PE_375_TS_bc: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0221_Ly_R_PE_375_TS.all.unique.dcs.sorted.bam
+    tumour:
+        TGL49_0221_Ly_R_PE_375_TS_tm: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0221_Ly_R_PE_375_TS.all.unique.dcs.sorted.bam
+TGL49_0223:
+    normal:
+        TGL49_0223_Ly_R_PE_357_TS_bc: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0223_Ly_R_PE_357_TS.all.unique.dcs.sorted.bam
+    tumour:
+        TGL49_0223_Ly_R_PE_357_TS_tm: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0223_Ly_R_PE_357_TS.all.unique.dcs.sorted.bam
+TGL49_0318:
+    normal:
+        TGL49_0318_Pb_n_PE_544_TS_bc: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0318_Pb_n_PE_544_TS.all.unique.dcs.sorted.bam
+    tumour:
+        TGL49_0318_Pb_n_PE_544_TS_tm: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0318_Pb_n_PE_544_TS.all.unique.dcs.sorted.bam
+TGL49_0320:
+    normal:
+        TGL49_0320_Pb_n_PE_525_TS_bc: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0320_Pb_n_PE_525_TS.all.unique.dcs.sorted.bam
+    tumour:
+        TGL49_0320_Pb_n_PE_525_TS_tm: /cluster/projects/pughlab/external_data/TGL49_CHARM/LFS/LFS_TS/all_unique/TGL49_0320_Pb_n_PE_525_TS.all.unique.dcs.sorted.bam

@@ -1,0 +1,198 @@
+ext_ID	timepoint	family	Age	Sex	years	cancer_status	cancer_type	type	stage	previous_cancer	previous_type	number_previous	germline_mutation	mutation_type	cfMeDIP	sWGS	TS	notes	
+LFS1	0	4509	pediatric	male	2.78	negative				yes	adrenal; rhabdomyosarcoma	2	E294fs	LOF	TGL49_0018_Cf_U_PE_312_CM	TGL49_0018_Cf_U_PE_320_WG	TGL49_0018_Cf_U_PE_402_TS		
+LFS1	1	4509	pediatric	male	2.88	negative				yes	adrenal; rhabdomyosarcoma	2	E294fs	LOF	TGL49_0020_Cf_U_PE_314_CM	TGL49_0018_Cf_U_PE_323_WG			
+LFS1	2	4509	pediatric	male	7.25	negative				yes	adrenal; rhabdomyosarcoma	2	E294fs	LOF	TGL49_0017_Cf_U_PE_304_CM	TGL49_0018_Cf_U_PE_308_WG			
+LFS1	3	4509	pediatric	male	7.61	negative				yes	adrenal; rhabdomyosarcoma	2	E294fs	LOF	TGL49_0128_Cf_U_PE_322_CM	TGL49_0018_Cf_U_PE_321_WG			
+LFS2	0	4534	pediatric	female	1.59	positive	adrenal	primary	high	no		0	S240G	3	TGL49_0019_Cf_U_PE_309_CM	TGL49_0019_Cf_U_PE_326_WG			
+LFS2	1	4534	pediatric	female	1.80	positive	adrenal	primary	high	no		1	S240G	3	TGL49_0021_Cf_U_PE_309_CM	TGL49_0019_Cf_U_PE_317_WG			
+LFS2	2	4534	pediatric	female	1.99	negative				yes	adrenal	1	S240G	3	TGL49_0023_Cf_U_PE_308_CM	TGL49_0019_Cf_U_PE_324_WG			
+LFS2	3	4534	pediatric	female	6.04	negative				yes	adrenal	1	S240G	3	TGL49_0002_Cf_U_PE_314_CM	TGL49_0019_Cf_U_PE_315_WG			
+LFS2	4	4534	pediatric	female	6.33	negative				yes	adrenal	1	S240G	3	TGL49_0130_Cf_U_PE_333_CM	TGL49_0130_Cf_U_PE_323_WG			
+LFS3	0		pediatric	female	5.18	negative				no		0	Y107*	LOF	TGL49_0022_Cf_U_PE_310_CM	TGL49_0022_Cf_U_PE_316_WG			
+LFS3	1		pediatric	female	8.11	negative				no		0	Y107*	LOF	TGL49_0011_Cf_U_PE_321_CM	TGL49_0022_Cf_U_PE_320_WG			
+LFS3	2		pediatric	female	8.33	positive	astrocytoma	primary	low	no		0	Y107*	LOF	TGL49_0012_Cf_U_PE_311_CM	TGL49_0022_Cf_U_PE_322_WG			
+LFS3	3		pediatric	female	8.40	positive	astrocytoma	primary	low	no		0	Y107*	LOF	TGL49_0013_Cf_U_PE_313_CM	TGL49_0022_Cf_U_PE_317_WG			
+LFS3	4		pediatric	female	8.63	negative				yes	astrocytoma	1	Y107*	LOF	TGL49_0014_Cf_U_PE_311_CM	TGL49_0022_Cf_U_PE_315_WG			
+LFS3	5		pediatric	female	9.20	negative				yes	astrocytoma	1	Y107*	LOF	TGL49_0016_Cf_U_PE_306_CM	TGL49_0022_Cf_U_PE_310_WG			
+LFS3	6		pediatric	female	9.85	negative				yes	astrocytoma	1	Y107*	LOF				NS	
+LFS3	7		pediatric	female	10.60	negative				yes	astrocytoma	2	Y107*	LOF	TGL49_0022_Pb_n_PE_305_CM	TGL49_0022_Pb_n_PE_305_WG			
+LFS3	8		pediatric	female	11.29	negative				yes	astrocytoma	1	Y107*	LOF	TGL49_0022_Pb_n_PE_306_CM	TGL49_0022_Pb_n_PE_306_WG			
+LFS3	9		pediatric	female	12.04	negative				yes	astrocytoma	1	Y107*	LOF	TGL49_0022_Pb_n_PE_307_CM	TGL49_0022_Pb_n_PE_307_WG			
+LFS3	10		pediatric	female	12.34	positive	osteosarcoma	primary	high	yes	astrocytoma	1	Y107*	LOF	TGL49_0022_Pb_n_PE_308_CM	TGL49_0022_Pb_n_PE_427_WG	TGL49_0022_Pb_n_PE_451_TS		
+LFS4	0		pediatric	male	10.24	negative				yes	osteosarcoma	1	W146*	LOF	TGL49_0024_Cf_U_PE_303_CM	TGL49_0024_Cf_U_PE_311_WG			
+LFS4	1		pediatric	male	14.27	negative				yes	osteosarcoma	1	W146*	LOF	TGL49_0006_Cf_U_PE_314_CM	TGL49_0024_Cf_U_PE_318_WG			
+LFS4	2		pediatric	male	14.21	negative				yes	osteosarcoma	1	W146*	LOF				NS	
+LFS4	3		pediatric	male	14.56	negative				yes	osteosarcoma	1	W146*	LOF	TGL49_0134_Cf_U_PE_340_CM	TGL49_0134_Cf_U_PE_321_WG	TGL49_0134_Cf_U_PE_414_TS		
+LFS5	0		pediatric	male	10.99	positive	glioma	primary	low	yes	rhabdomyosarcoma	1	X126_splice	Splice	TGL49_0025_Cf_U_PE_319_CM	TGL49_0025_Cf_U_PE_313_WG	TGL49_0025_Cf_U_PE_334_TS		
+LFS5	1		pediatric	male	11.66	negative				yes	rhabdomyosarcoma; glioma	2	X126_splice	Splice	TGL49_0010_Cf_U_PE_319_CM	TGL49_0025_Cf_U_PE_321_WG	TGL49_0010_Cf_U_PE_334_TS	failed	
+LFS5	2		pediatric	male	12.01	negative				yes	rhabdomyosarcoma; glioma	2	X126_splice	Splice	TGL49_0027_Cf_U_PE_309_CM	TGL49_0025_Cf_U_PE_317_WG			
+LFS5	3		pediatric	male	14.56	negative				yes	rhabdomyosarcoma; glioma; melanoma	3	X126_splice	Splice	TGL49_0025_Cf_U_PE_308_CM	TGL49_0025_Cf_U_PE_310_WG			
+LFS5	4		pediatric	male	15.02	negative				yes	rhabdomyosarcoma; glioma; melanoma; osteochondroma	4	X126_splice	Splice	TGL49_0025_Cf_U_PE_328_CM	TGL49_0025_Cf_U_PE_322_WG			
+LFS5	5		pediatric	male	15.29	negative				yes	rhabdomyosarcoma; glioma; melanoma; osteochondroma	4	X126_splice	Splice	TGL49_0025_Cf_U_PE_329_CM	TGL49_0025_Cf_U_PE_316_WG	TGL49_0025_Cf_U_PE_394_TS		
+LFS5	6		pediatric	male	15.79	positive	osteosarcoma	primary	high	yes	rhabdomyosarcoma; glioma; melanoma; osteochondroma	4	X126_splice	Splice	TGL49_0025_Pb_n_PE_309_CM	TGL49_0025_Pb_n_PE_309_WG			
+LFS5	7		pediatric	male	16.55	negative				yes	rhabdomyosarcoma; glioma; melanoma; osteochondroma, osteosarcoma	5	X126_splice	Splice	TGL49_0025_Pb_n_PE_311_CM	TGL49_0025_Pb_n_PE_311_WG			
+LFS5	8		pediatric	male	17.58	negative				yes	rhabdomyosarcoma; glioma; melanoma; osteochondroma, osteosarcoma	5	X126_splice	Splice	TGL49_0025_Pb_n_PE_310_CM	TGL49_0025_Pb_n_PE_421_WG	TGL49_0025_Pb_n_PE_452_TS		
+LFS6	0	4509	adult	female	35.29	negative				yes	phylloides	1	E294fs	LOF	TGL49_0026_Cf_U_PE_318_CM	TGL49_0026_Cf_U_PE_320_WG			
+LFS6	1	4509	adult	female	39.03	negative				yes	phylloides	1	E294fs	LOF	TGL49_0001_Cf_U_PE_309_CM	TGL49_0026_Cf_U_PE_314_WG			
+LFS7	0		pediatric	female	17.50	positive	sarcoma	primary	high	no		0	unknown		TGL49_0009_Cf_U_PE_309_CM	TGL49_0009_Cf_U_PE_312_WG		ewing_sarcoma	
+LFS8	0	5914	pediatric	male	10.93	negative				yes	rhabdomyosarcoma	1	T125=_splice	Splice				NS	
+LFS8	1	5914	pediatric	male	11.48	negative				yes	rhabdomyosarcoma	1	T125=_splice	Splice				NS	
+LFS9	0	5916	pediatric	female	12.33	negative				no		0	R181C	2				NS	
+LFS9	1	5916	pediatric	female	12.83	negative				no		0	R181C	2	TGL49_0123_Cf_U_PE_326_CM	TGL49_0123_Cf_U_PE_325_WG	TGL49_0123_Cf_U_PE_382_TS		
+LFS10	0	4534	pediatric	female	1.03	negative				no		0	S240G	3	TGL49_0003_Cf_U_PE_317_CM	TGL49_0003_Cf_U_PE_318_WG			
+LFS10	1	4534	pediatric	female	1.32	negative				no		0	S240G	3	TGL49_0111_Cf_U_PE_335_CM	TGL49_0111_Cf_U_PE_330_WG			
+LFS11	0		pediatric	female		negative				no		0	R273C	3				NS	
+LFS12	0		pediatric	female	11.93	negative				yes	adrenal	1	R158H	2	TGL49_0121_Cf_U_PE_332_CM	TGL49_0121_Cf_U_PE_323_WG	TGL49_0121_Cf_U_PE_373_TS		
+LFS13	0	5928	pediatric	male	17.05	negative				no		0	P222L	1	TGL49_0126_Cf_U_PE_332_CM	TGL49_0126_Cf_U_PE_321_WG			
+LFS13	1	5928	pediatric	male	17.32	negative				no		0	P222L	1	TGL49_0132_Cf_U_PE_335_CM	TGL49_0126_Cf_U_PE_323_WG			
+LFS14	0		pediatric	female	5.41	negative				no		0	V274fs	LOF	TGL49_0127_Cf_U_PE_318_CM	TGL49_0127_Cf_U_PE_320_WG			
+LFS14	1		pediatric	female	5.65	negative				no		0	V274fs	LOF	TGL49_0101_Cf_U_PE_327_CM	TGL49_0127_Cf_U_PE_322_WG			
+LFS15	0	5932	pediatric	female	11.40	negative				no		0	c.97-11C>G	Splice	TGL49_0007_Cf_U_PE_323_CM	TGL49_0007_Cf_U_PE_314_WG			
+LFS15	1	5932	pediatric	female	12.65	negative				no		0	c.97-11C>G	Splice				NS	
+LFS15	2	5932	pediatric	female	13.16	negative				no		0	c.97-11C>G	Splice	TGL49_0007_Pb_n_PE_301_CM	TGL49_0007_Pb_n_PE_301_WG			
+LFS15	3	5932	pediatric	female	14.28	negative				no		0	c.97-11C>G	Splice	TGL49_0007_Pb_n_PE_302_CM	TGL49_0007_Pb_n_PE_302_WG			
+LFS15	4	5932	pediatric	female	14.53	negative				no		0	c.97-11C>G	Splice	TGL49_0007_Pb_n_PE_303_CM	TGL49_0007_Pb_n_PE_453_WG	TGL49_0007_Pb_n_PE_468_TS		
+LFS15	5	5932	pediatric	female	14.68	positive	leukemia	primary		no		0	c.97-11C>G	Splice	TGL49_0007_Pb_n_PE_304_CM	TGL49_0007_Pb_n_PE_475_WG	TGL49_0007_Pb_n_PE_439_TS		
+LFS16	0	5946	pediatric	male	14.56	negative				no		0	F338S	5	TGL49_0119_Cf_U_PE_327_CM	TGL49_0119_Cf_U_PE_323_WG	TGL49_0119_Cf_U_PE_390_TS		
+LFS16	1	5946	pediatric	male	14.88	negative				no		0	F338S	5	TGL49_0119_Cf_U_PE_332_CM	TGL49_0119_Cf_U_PE_318_WG			
+LFS17	0	5946	adult	female	48.85	negative				no		0	F338S	5				NS	
+LFS18	0	5948	pediatric	male	1.87	negative				no		0	R158H	2	TGL49_0117_Cf_U_PE_323_CM	TGL49_0117_Cf_U_PE_326_WG			
+LFS19	0	5952	pediatric	female	17.87	negative				no		0	intron8_deletion	LOF	TGL49_0115_Cf_U_PE_328_CM	TGL49_0115_Cf_U_PE_325_WG			
+LFS19	1	5952	pediatric	female	18.14	negative				no		0	intron8_deletion	LOF	TGL49_0087_Cf_U_PE_330_CM	TGL49_0087_Cf_U_PE_321_WG			
+LFS20	0	5952	adult	female	44.41	negative				yes	breast; lung	2	intron8_deletion	LOF				NS	
+LFS20	1	5952	adult	female	44.68	negative				yes	breast; lung	2	intron8_deletion	LOF				NS	
+LFS21	0	5954	pediatric	female	7.52	negative				no		0	R273C	3	TGL49_0113_Cf_U_PE_327_CM	TGL49_0113_Cf_U_PE_328_WG			
+LFS22	0	5963	pediatric	male	7.86	positive	bladder	primary	low	no		0	T125=_splice	Splice	TGL49_0109_Cf_U_PE_338_CM	TGL49_0109_Cf_U_PE_320_WG	TGL49_0109_Cf_U_PE_373_TS		
+LFS23	0	5963	pediatric	male	5.97	negative				no		0	T125=_splice	Splice	TGL49_0107_Cf_U_PE_338_CM	TGL49_0107_Cf_U_PE_324_WG			
+LFS24	0	5928	adult	female	44.90	negative				yes	ganglioglioma	1	P222L	1	TGL49_0133_Cf_U_PE_333_CM	TGL49_0133_Cf_U_PE_320_WG			
+LFS25	0	5971	pediatric	female	14.95	negative				no		0	T125=_splice	Splice	TGL49_0106_Cf_U_PE_341_CM	TGL49_0106_Cf_U_PE_325_WG	TGL49_0106_Cf_U_PE_370_TS		
+LFS26	0	5971	pediatric	female	11.89	negative				no		0	T125=_splice	Splice	TGL49_0105_Cf_U_PE_321_CM	TGL49_0105_Cf_U_PE_324_WG	TGL49_0105_Cf_U_PE_393_TS		
+LFS28	0	5974	pediatric	female	10.93	negative				no		0	R213Q	3	TGL49_0103_Cf_U_PE_339_CM	TGL49_0103_Cf_U_PE_324_WG	TGL49_0103_Cf_U_PE_365_TS		
+LFS28	1	5974	pediatric	female	12.28	negative				no		0	R213Q	3	TGL49_0103_Pb_n_PE_312_CM	TGL49_0103_Pb_n_PE_402_WG	TGL49_0103_Pb_n_PE_436_TS		
+LFS28	2	5974	pediatric	female	13.58	negative				no		0	R213Q	3	TGL49_0103_Pb_n_PE_313_CM	TGL49_0103_Pb_n_PE_313_WG			
+LFS29	0	5974	pediatric	female	17.90	negative				no		0	R213Q	3	TGL49_0102_Cf_U_PE_334_CM	TGL49_0102_Cf_U_PE_325_WG	TGL49_0102_Cf_U_PE_378_TS		
+LFS30	0	5979	pediatric	male	15.26	negative				no		0	R213Q	3	TGL49_0098_Cf_U_PE_316_CM	TGL49_0098_Cf_U_PE_324_WG			
+LFS31	0	5979	adult	male	56.54	negative				no		0	R213Q	3	TGL49_0097_Cf_U_PE_330_CM	TGL49_0097_Cf_U_PE_325_WG			
+LFS32	0	5981	pediatric	male	5.11	negative				no		0	deletion	LOF				NS	
+LFS33	0	5981	adult	female	37.82	negative				no		0	deletion	LOF				NS	
+LFS34	0		adult	male	20.34	negative				yes	adrenal	1	C275* A276_C277delinsG	LOF	TGL49_0028_Cf_U_PE_310_CM	TGL49_0028_Cf_U_PE_311_WG	TGL49_0028_Cf_U_PE_329_TS		
+LFS34	1		adult	male	22.01	negative				yes	adrenal	1	C275* A276_C277delinsG	LOF	TGL49_0315_Cf_n_PE_401_CM	TGL49_0315_Cf_n_PE_390_WG	TGL49_0315_Cf_n_PE_395_TS		
+LFS34	2		adult	male	22.55	positive	lung	primary	high	yes	adrenal	1	C275* A276_C277delinsG	LOF	TGL49_0028_Cf_n_PE_392_CM	TGL49_0028_Cf_n_PE_359_WG	TGL49_0028_Cf_n_PE_384_TS		
+LFS35	0		adult	female	52.86	positive	breast	primary	low	yes	breast	1	R306*	LOF	TGL49_0029_Cf_U_PE_313_CM	TGL49_0029_Cf_U_PE_314_WG	TGL49_0029_Cf_U_PE_330_TS		
+LFS35	1		adult	female	53.39	negative				yes	breast	1	R306*	LOF	TGL49_0029_Cf_U_PE_368_CM	TGL49_0029_Cf_U_PE_360_WG	TGL49_0029_Cf_U_PE_381_TS		
+LFS35	2		adult	female	53.95	negative				yes	breast	1	R306*	LOF	TGL49_0029_Cf_n_PE_309_CM	TGL49_0029_Cf_n_PE_577_WG	TGL49_0029_Cf_n_PE_393_TS		
+LFS35	3		adult	female	54.60	negative				yes	breast	1	R306*	LOF	TGL49_0029_Cf_n_PE_318_CM	TGL49_0029_Cf_n_PE_321_WG	TGL49_0029_Cf_n_PE_397_TS		
+LFS36	0		adult	female	38.31	negative				yes	breast	1	R248Q	3	TGL49_0030_Cf_U_PE_312_CM	TGL49_0030_Cf_U_PE_313_WG	TGL49_0030_Cf_U_PE_331_TS		
+LFS37	0	5916	adult	female	34.47	positive	breast	secondary	high	yes	breast	1	R181C	2	TGL49_0031_Cf_U_PE_320_CM	TGL49_0031_Cf_U_PE_314_WG	TGL49_0031_Cf_U_PE_396_TS		
+LFS37	1	5916	adult	female	35.01	negative				yes	breast	1	R181C	2	TGL49_0316_Cf_n_PE_393_CM	TGL49_0316_Cf_n_PE_389_WG	TGL49_0316_Cf_n_PE_378_TS		
+LFS37	2	5916	adult	female	35.56	negative				yes	breast	1	R181C	2	TGL49_0031_Cf_n_PE_315_CM	TGL49_0031_Cf_n_PE_379_WG	TGL49_0031_Cf_n_PE_392_TS		
+LFS37	3	5916	adult	female	36.13	negative				yes	breast	1	R181C	2	TGL49_0092_Cf_U_PE_329_CM	TGL49_0092_Cf_U_PE_328_WG			
+LFS37	4	5916	adult	female	36.24	negative				yes	breast	1	R181C	2	TGL49_0031_Cf_n_PE_329_CM	TGL49_0031_Cf_n_PE_551_WG	TGL49_0031_Cf_n_PE_401_TS		
+LFS38	0		adult	male	54.23	positive	prostate	secondary	high	yes	prostate	1	R181H	2	TGL49_0032_Cf_U_PE_308_CM	TGL49_0032_Cf_U_PE_311_WG	TGL49_0032_Cf_U_PE_381_TS		
+LFS39	0	5963	adult	female	37.81	negative				yes	breast	1	T125=_splice	Splice	TGL49_0033_Cf_U_PE_310_CM	TGL49_0033_Cf_U_PE_313_WG	TGL49_0033_Cf_U_PE_383_TS		
+LFS39		5963	adult	female	38.95	negative				yes	breast	1	T125=_splice	Splice				NS	
+LFS39		5963	adult	female	39.22	negative				yes	breast	1	T125=_splice	Splice				NS	
+LFS40	0		adult	female	57.10	positive	sarcoma	primary	high	yes	breast	1	A129Pfs	LOF	TGL49_0034_Cf_U_PE_307_CM	TGL49_0034_Cf_U_PE_308_WG	TGL49_0034_Cf_U_PE_344_TS		
+LFS40	1		adult	female	57.60	negative				yes	breast; sarcoma	2	A129Pfs	LOF	TGL49_0319_Cf_n_PE_369_CM	TGL49_0319_Cf_n_PE_383_WG	TGL49_0319_Cf_n_PE_361_TS		
+LFS40	2		adult	female	58.19	negative				yes	breast; sarcoma	2	A129Pfs	LOF	TGL49_0034_Cf_n_PE_323_CM	TGL49_0034_Cf_n_PE_412_WG	TGL49_0034_Cf_n_PE_377_TS		
+LFS40	3		adult	female	59.11	negative				yes	breast; sarcoma	2	A129Pfs	LOF	TGL49_0034_Cf_n_PE_324_CM	TGL49_0034_Cf_n_PE_619_WG	TGL49_0034_Cf_n_PE_382_TS		
+LFS40	4		adult	female	61.02	negative				yes	breast; sarcoma	2	A129Pfs	LOF	TGL49_0319_Cf_n_PE_381_CM	TGL49_0319_Cf_n_PE_3830_WG	TGL49_0319_Cf_n_PE_372_TS		
+LFS41	0	5974	adult	female	36.50	negative				yes	breast; adrenal	2	R213Q	3	TGL49_0035_Cf_U_PE_313_CM	TGL49_0035_Cf_U_PE_310_WG	TGL49_0035_Cf_U_PE_370_TS	may be sample swap	
+LFS41	1	5974	adult	female	37.93	negative				yes	breast; adrenal	2	R213Q	3				NS	
+LFS42	0	5932	adult	female	46.06	negative				yes	breast; sarcoma; lung	3	c.97-11C>G	Splice	TGL49_0036_Cf_U_PE_320_CM	TGL49_0036_Cf_U_PE_317_WG	TGL49_0036_Cf_U_PE_337_TS		
+LFS42	1	5932	adult	female	46.50	negative				yes	breast; sarcoma; lung	3	c.97-11C>G	Splice	TGL49_0395_Pb_n_PE_362_CM	TGL49_0395_Pb_n_PE_397_WG			
+LFS42	2	5932	adult	female	47.75	negative				yes	breast; sarcoma; lung	3	c.97-11C>G	Splice	TGL49_0395_Pb_n_PE_363_CM	TGL49_0395_Pb_n_PE_388_WG			
+LFS42	3	5932	adult	female	49.67	negative				yes	breast; sarcoma; lung	3	c.97-11C>G	Splice	TGL49_0395_Pb_n_PE_414_CM	TGL49_0395_Pb_n_PE_421_WG			
+LFS42		5932	adult	female	46.26	negative				yes	breast; lung; thyroid	3	c.97-11C>G	Splice				NS	
+LFS42		5932	adult	female	47.51	negative				yes	breast; lung; thyroid	3	c.97-11C>G	Splice				NS	
+LFS43	0		adult	female	37.87	negative				no		0	R158H	2	TGL49_0037_Cf_U_PE_311_CM	TGL49_0037_Cf_U_PE_315_WG	TGL49_0037_Cf_U_PE_323_TS		
+LFS44	0		adult	female	38.48	negative				yes	breast; endometrial	2	R248Q	3	TGL49_0038_Cf_U_PE_300_CM	TGL49_0038_Cf_U_PE_302_WG	TGL49_0038_Cf_U_PE_329_TS		
+LFS45	0		adult	female	43.17	negative				yes	breast	1	X261_splice	Splice	TGL49_0039_Cf_U_PE_322_CM	TGL49_0039_Cf_U_PE_316_WG			
+LFS45	1		adult	female	43.65	negative				yes	breast	1	X261_splice	Splice	TGL49_0039_Cf_n_PE_331_CM	TGL49_0039_Cf_n_PE_569_WG	TGL49_0039_Cf_n_PE_402_TS		
+LFS45	2		adult	female	44.30	negative				yes	breast; lung	2	X261_splice	Splice	TGL49_0039_Cf_n_PE_325_CM	TGL49_0039_Cf_n_PE_680_WG	TGL49_0039_Cf_n_PE_414_TS		
+LFS45	3		adult	female	45.03	negative				yes	breast; lung	2	X261_splice	Splice	TGL49_0039_Cf_n_PE_313_CM	TGL49_0039_Cf_n_PE_518_WG	TGL49_0039_Cf_n_PE_394_TS		
+LFS46	0		adult	female	42.25	negative				no		0	R158H	2	TGL49_0040_Cf_U_PE_321_CM	TGL49_0040_Cf_U_PE_316_WG	TGL49_0040_Cf_U_PE_327_TS		
+LFS47	0		adult	female	66.37	negative				yes	ovarian; colon	2	R175H	3	TGL49_0041_Cf_U_PE_311_CM	TGL49_0041_Cf_U_PE_317_WG	TGL49_0041_Cf_U_PE_327_TS		
+LFS48	0	LIB-04-0027	adult	female	28.76	negative				yes	leukemia	1	T125=_splice	Splice	TGL49_0042_Cf_U_PE_313_CM	TGL49_0042_Cf_U_PE_317_WG	TGL49_0042_Cf_U_PE_327_TS		
+LFS49	0	LIB-04-0032	adult	female	21.38	negative				no		0	F338S	5	TGL49_0215_Cf_n_PE_383_CM	TGL49_0215_Cf_n_PE_387_WG	TGL49_0215_Cf_n_PE_395_TS		
+LFS50	0	LIB-04-0033	adult	female	19.98	negative				no		0	X187_splice	Splice	TGL49_0043_Cf_U_PE_319_CM	TGL49_0043_Cf_U_PE_321_WG	TGL49_0043_Cf_U_PE_328_TS		
+LFS51	0		adult	female	35.30	negative				no		0	Exon 1 del	LOF	TGL49_0044_Cf_U_PE_319_CM	TGL49_0044_Cf_U_PE_322_WG	TGL49_0044_Cf_U_PE_326_TS		
+LFS51	1		adult	female	35.83	negative				no		0	Exon 1 del	LOF	TGL49_0322_Cf_n_PE_380_CM	TGL49_0322_Cf_n_PE_373_WG	TGL49_0322_Cf_n_PE_383_TS		
+LFS51	2		adult	female	36.35	positive	appendiceal_adenocarcinoma	primary	low	no		0	Exon 1 del	LOF	TGL49_0322_Cf_n_PE_373_CM	TGL49_0322_Cf_n_PE_413_WG	TGL49_0322_Cf_n_PE_360_TS		
+LFS51	3		adult	female	37.18	negative				yes	adenocarcinoma	1	Exon 1 del	LOF	TGL49_0044_Cf_n_PE_321_CM	TGL49_0044_Cf_n_PE_558_WG	TGL49_0044_Cf_n_PE_382_TS		
+LFS51	4		adult	female	38.14	negative				yes	adenocarcinoma	1	Exon 1 del	LOF				NS	
+LFS52	0	LIB-04-0035	adult	female	49.05	negative				no		0	T125=_splice	Splice	TGL49_0045_Cf_U_PE_317_CM	TGL49_0045_Cf_U_PE_321_WG	TGL49_0045_Cf_U_PE_329_TS		
+LFS52	1	LIB-04-0035	adult	female	49.88	negative				no		0	T125=_splice	Splice	TGL49_0125_Cf_U_PE_336_CM	TGL49_0125_Cf_U_PE_331_WG			
+LFS52	2	LIB-04-0035	adult	female	50.42	negative				no		0	T125=_splice	Splice	TGL49_0131_Cf_U_PE_322_CM	TGL49_0131_Cf_U_PE_324_WG	TGL49_0131_Cf_U_PE_392_TS		
+LFS53	0	LIB-04-0035	adult	male	22.04	negative				yes	adrenal	1	T125=_splice	Splice	TGL49_0046_Cf_U_PE_318_CM	TGL49_0046_Cf_U_PE_315_WG	TGL49_0046_Cf_U_PE_403_TS		
+LFS54	0		adult	female	35.06	negative				yes	breast; squamous	2	Y107*	LOF	TGL49_0047_Cf_U_PE_317_CM	TGL49_0047_Cf_U_PE_316_WG	TGL49_0047_Cf_U_PE_328_TS		
+LFS55	0	4534	adult	female	30.08	negative				no		0	S240G	3	TGL49_0048_Cf_U_PE_315_CM	TGL49_0048_Cf_U_PE_313_WG	TGL49_0048_Cf_U_PE_325_TS		
+LFS55	1	4534	adult	female	30.94	negative				no		0	S240G	3	TGL49_0004_Cf_U_PE_317_CM	TGL49_0004_Cf_U_PE_319_WG			
+LFS55	2	4534	adult	female	31.23	negative				no		0	S240G	3	TGL49_0110_Cf_U_PE_337_CM	TGL49_0110_Cf_U_PE_331_WG			
+LFS56	0	5932	adult	male	21.14	negative				no		0	c.97-11C>G	Splice	TGL49_0049_Cf_U_PE_319_CM	TGL49_0049_Cf_U_PE_323_WG	TGL49_0049_Cf_U_PE_319_TS		
+LFS57	0		adult	female	30.67	positive	breast	secondary	unknown	yes	breast	1	R306*	LOF	TGL49_0050_Cf_U_PE_317_CM	TGL49_0050_Cf_U_PE_318_WG	TGL49_0050_Cf_U_PE_319_TS		
+LFS57	1		adult	female	31.22	positive	breast	secondary	unknown	yes	breast	1	R306*	LOF	TGL49_0326_Cf_n_PE_382_CM	TGL49_0326_Cf_n_PE_378_WG	TGL49_0326_Cf_n_PE_412_TS		
+LFS57	2		adult	female	31.82	negative				yes	breast	1	R306*	LOF	TGL49_0326_Cf_n_PE_376_CM		TGL49_0326_Cf_n_PE_373_TS		
+LFS58	0	5954	adult	female	40.36	positive	breast	secondary	high	yes	breast; thyroid; basal_cell; lung	4	R273C	3	TGL49_0051_Cf_U_PE_319_CM	TGL49_0051_Cf_U_PE_318_WG	TGL49_0051_Cf_U_PE_323_TS		
+LFS58	1	5954	adult	female	41.08	positive	breast	secondary	high	yes	breast; thyroid; basal_cell; lung	4	R273C	3	TGL49_0051_Cf_n_PE_2203181_CM	TGL49_0051_Cf_n_PE_524_WG	TGL49_0051_Cf_n_PE_396_TS		
+LFS58	2	5954	adult	female	41.80	positive	breast	secondary	high	yes	breast; thyroid; basal_cell; lung	4	R273C	3	TGL49_0051_Cf_n_PE_2203182_CM	TGL49_0051_Cf_n_PE_387_WG	TGL49_0051_Cf_n_PE_394_TS		
+LFS58		5954	adult	female	41.44	negative				yes	breast; thyroid; basal_cell; lung	4	R273C	3				NS	
+LFS59	0		adult	female	64.05	negative				yes	sarcoma; lung	2	R213Q	3	TGL49_0052_Cf_U_PE_328_CM	TGL49_0052_Cf_U_PE_330_WG	TGL49_0052_Cf_U_PE_420_TS		
+LFS59	1		adult	female	64.67	negative				yes	sarcoma; lung	2	R213Q	3	TGL49_0052_Cf_n_PE_2203181_CM	TGL49_0052_Cf_n_PE_500_WG	TGL49_0052_Cf_n_PE_396_TS		
+LFS59	2		adult	female	65.30	positive	sarcoma	secondary	unknown	yes	sarcoma; lung	2	R213Q	3	TGL49_0052_Cf_n_PE_2203182_CM	TGL49_0052_Cf_n_PE_406_WG	TGL49_0052_Cf_n_PE_378_TS		
+LFS59	3		adult	female	67.22	negative				yes	sarcoma; lung	2	R213Q	3	TGL49_0328_Cf_n_PE_378_CM		TGL49_0328_Cf_n_PE_384_TS		
+LFS60	0	LIB-04-0033	adult	male	38.73	positive	osteosarcoma	secondary	high	yes	osteosarcoma	1	X187_splice	Splice	TGL49_0053_Cf_U_PE_334_CM	TGL49_0053_Cf_U_PE_331_WG	TGL49_0053_Cf_U_PE_425_TS		
+LFS61	0	LIB-04-0032	adult	female	19.02	negative				no		0	F338S	5	TGL49_0216_Cf_n_PE_363_CM	TGL49_0216_Cf_n_PE_483_WG	TGL49_0216_Cf_n_PE_403_TS		
+LFS62	0	LIB-04-0032	adult	female	47.96	negative				no		0	F338S	5	TGL49_0217_Cf_n_PE_368_CM	TGL49_0217_Cf_n_PE_622_WG	TGL49_0217_Cf_n_PE_412_TS		
+LFS63	0	5974	adult	female	50.38	negative				no		0	R213Q	3	TGL49_0054_Cf_U_PE_324_CM	TGL49_0054_Cf_U_PE_330_WG	TGL49_0054_Cf_U_PE_409_TS		
+LFS64	0		adult	female	74.41	positive	breast	secondary		yes	breast	1			TGL49_0209_Cf_U_PE_355_CM	TGL49_0209_Cf_U_PE_373_WG	TGL49_0209_Cf_U_PE_378_TS	exclude	
+LFS65	0	5971	adult	male	34.63	negative				no		0	T125=_splice	Splice	TGL49_0055_Cf_U_PE_318_CM	TGL49_0055_Cf_U_PE_332_WG	TGL49_0055_Cf_U_PE_374_TS		
+LFS66	0	5948	adult	female	32.20	negative				no		0	R158H	2	TGL49_0056_Cf_U_PE_317_CM	TGL49_0056_Cf_U_PE_320_WG	TGL49_0056_Cf_U_PE_320_TS		
+LFS66	1	5948	adult	female	32.98	negative				no		0	R158H	2				NS	
+LFS67	0		adult	female	57.85	negative				yes	breast; basal_cell	2	R282Q	2	TGL49_0057_Cf_U_PE_316_CM	TGL49_0057_Cf_U_PE_327_WG	TGL49_0057_Cf_U_PE_372_TS		
+LFS68	0	LIB-04-0027	adult	female	52.81	negative				yes	breast; pilocytic_astrocytoma; thyroid; lung	4	T125=_splice	Splice	TGL49_0058_Cf_U_PE_322_CM	TGL49_0058_Cf_U_PE_327_WG	TGL49_0058_Cf_U_PE_428_TS		
+LFS68	1	LIB-04-0027	adult	female	53.44	negative				yes	breast; pilocytic_astrocytoma; thyroid; lung	4	T125=_splice	Splice	TGL49_0058_Cf_n_PE_2203181_CM	TGL49_0058_Cf_n_PE_365_WG	TGL49_0058_Cf_n_PE_378_TS		
+LFS68	2	LIB-04-0027	adult	female	54.30	negative				yes	breast; pilocytic_astrocytoma; thyroid; lung	4	T125=_splice	Splice	TGL49_0058_Cf_n_PE_2203182_CM	TGL49_0058_Cf_n_PE_361_WG	TGL49_0058_Cf_n_PE_372_TS		
+LFS68	3	LIB-04-0027	adult	female	55.74	negative				yes	breast; pilocytic_astrocytoma; thyroid; lung	4	T125=_splice	Splice	TGL49_0329_Cf_n_PE_394_CM	TGL49_0329_Cf_n_PE_393_WG	TGL49_0329_Cf_n_PE_401_TS		
+LFS69	0	LIB-04-0067	adult	female	48.43	negative				no		0	R213Q	3	TGL49_0059_Cf_U_PE_321_CM	TGL49_0059_Cf_U_PE_324_WG	TGL49_0059_Cf_U_PE_466_TS		
+LFS70	0	LIB-04-0068	adult	female	36.97	negative				no		0	R181H	2	TGL49_0060_Cf_U_PE_315_CM	TGL49_0060_Cf_U_PE_319_WG	TGL49_0060_Cf_n_PE_403_TS		
+LFS70	1	LIB-04-0068	adult	female	38.53	negative				no		0	R181H	2					
+LFS71	0	LIB-04-0068	adult	female	61.24	negative				yes	breast	1	R181H	2	TGL49_0061_Cf_U_PE_316_CM	TGL49_0061_Cf_U_PE_324_WG	TGL49_0061_Cf_U_PE_397_TS		
+LFS71	1	LIB-04-0068	adult	female	62.79	negative				yes	breast	1	R181H	2	TGL49_0355_Cf_n_PE_369_CM	TGL49_0355_Cf_n_PE_396_WG	TGL49_0355_Cf_n_PE_360_TS		
+LFS71	2	LIB-04-0068	adult	female		negative				yes	breast	1	R181H	2	TGL49_0355_Cf_n_PE_353_CM		TGL49_0355_Cf_n_PE_395_TS		
+LFS71	3	LIB-04-0068	adult	female		negative				yes	breast	1	R181H	2				NS	
+LFS72	0	LIB-04-0070	adult	male	52.09	positive	bladder	primary	high	yes	testicular; sarcoma	2	G245S	3	TGL49_0062_Cf_U_PE_317_CM	TGL49_0062_Cf_U_PE_324_WG	TGL49_0062_Cf_U_PE_373_TS		
+LFS72	1	LIB-04-0070	adult	male	52.82	positive	bladder	secondary	high	yes	testicular; sarcoma; bladder	3	G245S	3			TGL49_0062_Cf_n_PE_367_TS		
+LFS72	2	LIB-04-0070	adult	male	53.32	positive	bladder	secondary	high	yes	testicular; sarcoma; bladder	3	G245S	3		TGL49_0062_Cf_n_PE_342_WG	TGL49_0062_Cf_n_PE_351_TS		
+LFS73	0		pediatric	male	18.00	negative				no		0	R248Q	3				NS	
+LFS73	1		pediatric	male	19.34	positive	chondrosarcoma	primary	low	no		0	R248Q	3				NS	
+LFS73	2		adult	male	20.81	negative				yes	sarcoma	1	R248Q	3	TGL49_0063_Cf_U_PE_321_CM	TGL49_0063_Cf_U_PE_328_WG	TGL49_0063_Cf_U_PE_381_TS		
+LFS74	0		adult	female	44.19	positive	breast	secondary	high	yes	breast	1	G266R	3	TGL49_0064_Cf_U_PE_318_CM	TGL49_0064_Cf_U_PE_322_WG	TGL49_0064_Cf_U_PE_411_TS		
+LFS74	1		adult	female	45.24	positive	breast	secondary	high	yes	breast	1	G266R	3	TGL49_0064_Cf_n_PE_220318_CM	TGL49_0064_Cf_n_PE_394_WG	TGL49_0064_Cf_n_PE_438_TS		
+LFS75	0		adult	female	37.22	negative				no		0	R158H	2	TGL49_0065_Cf_U_PE_320_CM	TGL49_0065_Cf_U_PE_317_WG	TGL49_0065_Cf_U_PE_387_TS		
+LFS75	1		adult	female	37.93	negative				no		0	R158H	2	TGL49_0065_Cf_n_PE_220318_CM	TGL49_0065_Cf_n_PE_398_WG	TGL49_0065_Cf_n_PE_403_TS		
+LFS76	0		adult	female	27.92	negative				no		0	X187_splice	Splice	TGL49_0066_Cf_U_PE_330_CM	TGL49_0066_Cf_U_PE_324_WG	TGL49_0066_Cf_U_PE_364_TS		
+LFS77	0		adult	female	37.04	positive	sarcoma	primary	low	yes	breast	1	H193Y	3	TGL49_0067_Cf_U_PE_335_CM	TGL49_0067_Cf_U_PE_317_WG	TGL49_0067_Cf_U_PE_400_TS		
+LFS77	1		adult	female	37.73	negative				yes	breast; sarcoma	2	H193Y	3	TGL49_0335_Cf_n_PE_395_CM		TGL49_0335_Cf_n_PE_396_TS		
+LFS78	0		adult	female	33.28	negative				yes	breast	1	G245S	3	TGL49_0068_Cf_U_PE_320_CM	TGL49_0068_Cf_U_PE_323_WG	TGL49_0068_Cf_U_PE_468_TS		
+LFS78	1		adult	female	34.06	negative				yes	breast	1	G245S	3	TGL49_0337_Cf_n_PE_408_CM	TGL49_0337_Cf_n_PE_388_WG	TGL49_0337_Cf_n_PE_405_TS		
+LFS78	2		adult	female	34.26	positive	breast	secondary	high	yes	breast	1	G245S	3	TGL49_0337_Cf_n_PE_406_CM	TGL49_0337_Cf_n_PE_401_WG	TGL49_0337_Cf_n_PE_394_TS		
+LFS79	0		adult	female	49.84	positive	breast	secondary	high	yes	breast	1	G108Vfs	LOF	TGL49_0210_Cf_U_PE_373_CM	TGL49_0210_Cf_U_PE_382_WG	TGL49_0210_Cf_U_PE_403_TS		
+LFS79	1		adult	female	50.61	positive	breast	secondary	high	yes	breast	1	G108Vfs	LOF	TGL49_0210_Cf_n_01_1-1_D_1	TGL49_0210_Cf_n_PE_348_WG	TGL49_0210_Cf_n_PE_376_TS		
+LFS80	0		adult	male	24.74	negative				no		0	R273H	3	TGL49_0218_Cf_n_PE_354_CM	TGL49_0218_Cf_n_PE_378_WG	TGL49_0218_Cf_n_PE_417_TS		
+LFS81	0		adult	male	64.22	positive	prostate	secondary	low	yes	prostate	1	F134Y	2	TGL49_0211_Cf_U_PE_369_CM	TGL49_0211_Cf_U_PE_355_WG	TGL49_0211_Cf_U_PE_384_TS		
+LFS81	1		adult	male	66.00	negative				yes	prostate	1	F134Y	2	TGL49_0211_Cf_n_PE_220318_CM	TGL49_0211_Cf_n_PE_365_WG	TGL49_0211_Cf_n_PE_374_TS		
+LFS82	0		adult	female	27.87	negative				yes	adrenal		F134Y	2	TGL49_0448_Pb_n_PE_314_CM	TGL49_0448_Pb_n_PE_435_WG	TGL49_0448_Pb_n_PE_479_TS		
+LFS83	0	LIB-04-0067	adult	female	35.63	negative				no		0	R213Q	3	TGL49_0219_Cf_n_PE_380_CM	TGL49_0219_Cf_n_PE_381_WG	TGL49_0219_Cf_n_PE_395_TS		
+LFS84	0	LIB-04-0067	adult	female	55.02	positive	breast	secondary	high	yes	breast	1	R213Q	3	TGL49_0212_Cf_U_PE_357_CM	TGL49_0212_Cf_U_PE_352_WG	TGL49_0212_Cf_U_PE_367_TS		
+LFS85	0	LIB-04-0070	adult	male	22.46	negative				no		0	G245S	3	TGL49_0220_Cf_n_PE_356_CM	TGL49_0220_Cf_n_PE_372_WG	TGL49_0220_Cf_n_PE_392_TS		
+LFS86	0	LIB-04-0067	adult	male	63.06	negative				no		0	R213Q	3	TGL49_0221_Cf_n_PE_374_CM	TGL49_0221_Cf_n_PE_376_WG	TGL49_0221_Cf_n_PE_395_TS		
+LFS87	0		adult	male	45.65	negative				yes	adrenal; liver		c.559+5G>C	Splice	TGL49_0449_Pb_n_PE_315_CM	TGL49_0449_Pb_n_PE_406_WG	TGL49_0449_Pb_n_PE_388_TS		
+LFS88	0		adult	female	52.92	positive	breast	primary	low	yes	breast; osteosarcoma; lymphoma		R273H	3	TGL49_0346_Cf_n_PE_397_CM		TGL49_0346_Cf_n_PE_417_TS		
+LFS88	1		adult	female	54.78	negative				yes	breast; osteosarcoma; lymphoma		R273H	3	TGL49_0346_Cf_n_PE_353_CM	TGL49_0346_Cf_n_PE_348_WG	TGL49_0346_Cf_n_PE_343_TS		
+LFS88	0	LIB-04-0032	adult	male	39.90	negative				no		0	F338S	5	TGL49_0222_Cf_n_PE_390_CM	TGL49_0222_Cf_n_PE_374_WG	TGL49_0222_Cf_n_PE_378_TS		
+LFS89	0		adult	female	35.84	positive	endometrial	primary	high	no		0	Exon 1 del	LOF	TGL49_0213_Cf_U_PE_365_CM	TGL49_0213_Cf_U_PE_346_WG	TGL49_0213_Cf_U_PE_372_TS		
+LFS89	1		adult	female	36.26	negative				yes	endometrial	1	Exon 1 del	LOF	TGL49_0213_Cf_n_PE_377_CM	TGL49_0213_Cf_n_PE_350_WG	TGL49_0213_Cf_n_PE_379_TS		
+LFS89	2		adult	female	37.34	negative				yes	endometrial	1	Exon 1 del	LOF		TGL49_0213_Cf_n_PE_372_WG	TGL49_0213_Cf_n_PE_401_TS		
+LFS90	0		adult	female	39.95	positive	lymphoma	primary	unknown	yes	melanoma; leukemia	2	duplication_exon2_9	LOF	TGL49_0214_Cf_n_PE_366_CM	TGL49_0214_Cf_n_PE_366_WG	TGL49_0214_Cf_n_PE_382_TS		
+LFS91	0		adult	female	47.72	negative				no		0	R181H	2	TGL49_0223_Cf_n_PE_382_CM	TGL49_0223_Cf_n_PE_394_WG	TGL49_0223_Cf_n_PE_392_TS		
