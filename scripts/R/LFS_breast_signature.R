@@ -16,7 +16,6 @@ library(limma)
 #BC vs LFS_negative
 #BC vs LFS_positive
 
-
 # ------------------- load data -------------------
 setwd('/cluster/projects/pughlab/projects/CHARM/LFS/Ping_medremix')
 data <- read_parquet('LFS_0530.parquet')
@@ -76,12 +75,11 @@ write_parquet(row_info, 'row_info_0811.parquet')
 nFreq <- 30
 nDMR <- 300
 
-setwd('/Users/pluo/Project/cfMeDIP/CHARM/LFS/cfmedip_supervised')
+setwd('~/Project/cfMeDIP/CHARM/LFS/cfmedip_supervised')
 Data_mapped <- read_parquet('Data_mapped_0811.parquet')
 row_info <- read_parquet('row_info_0811.parquet')
 metadata <- readRDS('~/Project/cfMeDIP/CHARM/LFS/metadata/metadata_0719.rds')
 
-#remove the last 19 samples since they are new and not used for DMR identification
 metadata <- metadata[1:123,]
 
 LFS <- Data_mapped[,c(1:123)]
@@ -184,10 +182,6 @@ intersect(tmp$Features_vec,rownames(Features_pos))
 write.table(test, 'BC_pos_neg_DMR.tsv', quote=F, row.names=F, sep='\t')
 write.table(test2, 'BC_pos_neg_HBC_DMR.tsv', quote=F, row.names=F, sep='\t')
 write.table(tmp, 'BC_tmp.tsv', quote=F, row.names=F, sep='\t')
-
-# test if BC signatures have overlap with LFS_negative signatures
-df_neg <- read.delim('~/Project/cfMeDIP/CHARM/LFS/DMRs/neg_HBC_DMRs_0721.tsv')
-test4 <- semi_join(tmp, df_neg, by=c('bin_chr', 'bin_start', 'bin_end'))
 
 ########################### CV
 mtx <- cbind(LFS_BC, HBC)[test3,]
