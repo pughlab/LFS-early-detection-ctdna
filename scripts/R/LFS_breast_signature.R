@@ -17,7 +17,7 @@ library(limma)
 #BC vs LFS_positive
 
 # ------------------- load data -------------------
-setwd('/cluster/projects/pughlab/projects/CHARM/LFS/Ping_medremix')
+setwd('')
 data <- read_parquet('LFS_0530.parquet')
 HBC <- read_parquet('HBC.parquet')
 data <- full_join(data, HBC, by=c('bin_chr', 'bin_start', 'bin_end'))
@@ -75,7 +75,7 @@ write_parquet(row_info, 'row_info_0811.parquet')
 nFreq <- 30
 nDMR <- 300
 
-setwd('~/Project/cfMeDIP/CHARM/LFS/cfmedip_supervised')
+setwd('')
 Data_mapped <- read_parquet('Data_mapped_0811.parquet')
 row_info <- read_parquet('row_info_0811.parquet')
 metadata <- readRDS('~/Project/cfMeDIP/CHARM/LFS/metadata/metadata_0719.rds')
