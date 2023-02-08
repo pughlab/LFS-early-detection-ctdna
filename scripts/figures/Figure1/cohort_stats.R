@@ -5,8 +5,8 @@ library(htmlwidgets)
 library(ComplexHeatmap)
 
 ### Set variables
-path <- "/Users/derekwong/Documents/GitHub/TGL49_CHARM_LFS/data"
-outdir <- "/Users/derekwong/Documents/GitHub/TGL49_CHARM_LFS/scripts/figures/Figure1"
+path <- ""
+outdir <- ""
 
 data_samples <- read.delim(file.path(path, "sample_list_github.txt"))
 data_samples <- data_samples[!(data_samples$notes == "exclude"), ]
