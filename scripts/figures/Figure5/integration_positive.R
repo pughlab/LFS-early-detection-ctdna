@@ -7,17 +7,17 @@ library(ggpubr)
 library(gridExtra)
 
 ### Set paths
-path <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS"
-path2 <- "/Users/derekwong/Library/CloudStorage/GoogleDrive-derekwong90@gmail.com/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures"
-outdir <- "/Users/derekwong/Library/CloudStorage/GoogleDrive-derekwong90@gmail.com/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/integration"
+path <- ""
+path2 <- ""
+outdir <- ""
 
 ### Find files
 ichorCNA <- read.delim(list.files(path, "summary_reviewed.txt", recursive = TRUE, full.names = TRUE))
-mutation <- read.delim(file.path(path2, "oncoplot/Oncoplot_full.txt"))
-fragment <- read.delim(file.path(path2, "fragment_frequency/fragment_scores.txt"))
-breast <- read.delim(file.path(path2, "cfMeDIP/methylation_score_breast.tsv"))
-all <- read.delim(file.path(path2, "cfMeDIP/pancancer_score_Vrba.tsv"))
-samples <- read.delim("/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/samples/sample_list.txt")
+mutation <- read.delim(file.path(path2, "Oncoplot_full.txt"))
+fragment <- read.delim(file.path(path2, "fragment_scores.txt"))
+breast <- read.delim(file.path(path2, "methylation_score_breast.tsv"))
+all <- read.delim(file.path(path2, "pancancer_score_Vrba.tsv"))
+samples <- read.delim("sample_list.txt")
 
 ### Calculate methylation limits
 breast_limit <- quantile(breast$score[breast$cfMeDIP == "HBC"], 0.95)
