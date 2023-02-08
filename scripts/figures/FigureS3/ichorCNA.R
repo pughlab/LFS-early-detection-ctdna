@@ -7,9 +7,9 @@ library(ggpubr)
 library(gridExtra)
 
 ### Set paths
-path <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/ichorCNA"
-path2 <- "/Users/derekwong/Library/CloudStorage/GoogleDrive-derekwong90@gmail.com/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/oncoplot"
-outdir <- "/Users/derekwong/Library/CloudStorage/GoogleDrive-derekwong90@gmail.com/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/ichorCNA"
+path <- ""
+path2 <- ""
+outdir <- ""
 
 ### Find files
 mutations <- read.delim(file.path(path2, "Oncoplot_full.txt"))
