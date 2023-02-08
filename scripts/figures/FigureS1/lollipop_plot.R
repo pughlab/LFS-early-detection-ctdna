@@ -3,10 +3,10 @@ library(trackViewer)
 library(data.table)
 
 ### Set variables
-path <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS"
-outdir <- "/Users/derekwong/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/cohort stats"
+path <- ""
+outdir <- ""
 
-data_samples <- read.delim(file.path(path, "samples/sample_list.txt"))
+data_samples <- read.delim(file.path(path, "sample_list.txt"))
 
 ### Format sample list into list of features
 data_samples <- data_samples[!(duplicated(data_samples$ext_ID)), ]
