@@ -8,11 +8,11 @@ library(gridExtra)
 library(data.table)
 
 ### Set paths
-path <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/panel_cnv"
-hbc_path <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/Healthy_control_cohorts/CHARM_HBC/panel_cnv"
-outdir <- "/Users/derekwong/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/panel_cnv"
-samples <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/samples/sample_list.txt"
-samples_bc <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/samples/sample_list_TS_BC.txt"
+path <- ""
+hbc_path <- ""
+outdir <- ""
+samples <- "sample_list.txt"
+samples_bc <- "sample_list_TS_BC.txt"
 
 ### Read in files
 samples <- read.delim(samples)
