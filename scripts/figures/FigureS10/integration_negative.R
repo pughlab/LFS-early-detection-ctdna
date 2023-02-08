@@ -7,9 +7,9 @@ library(ggpubr)
 library(gridExtra)
 
 ### Set paths
-path <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS"
-path2 <- "/Users/derekwong/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures"
-outdir <- "/Users/derekwong/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/integration"
+path <- ""
+path2 <- ""
+outdir <- ""
 
 ### Find files
 ichorCNA <- read.delim(list.files(path, "summary_reviewed.txt", recursive = TRUE, full.names = TRUE))
