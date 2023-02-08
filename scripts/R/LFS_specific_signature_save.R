@@ -9,7 +9,7 @@ library(caret)
 library(randomForest)
 library(limma)
 
-setwd('/cluster/projects/pughlab/projects/CHARM/LFS/Ping_medremix')
+setwd('')
 
 data <- read_parquet('neg_HBC.parquet')
 
@@ -59,7 +59,7 @@ result_bin <- semi_join(pbl_del, dense_cpg, by=c('bin_chr', 'bin_start', 'bin_en
 Data_mapped <- semi_join(data, result_bin, by=c('bin_chr', 'bin_start', 'bin_end'))
 
 row_info <- Data_mapped[,c('bin_chr','bin_start','bin_end')]
-setwd('/cluster/projects/pughlab/projects/CHARM/LFS/Ping_medremix/filtered_matrix')
+setwd('')
 write_parquet(Data_mapped, 'neg_HBC_filtered_0721.parquet')
 
 # cross-validation
@@ -97,5 +97,5 @@ re$Features_vec <- as.numeric(as.character(re$Features_vec))
 tmp <- re[re$Freq >= nFreq,]
 
 Feature_list <- row_info[tmp$Features_vec,]
-setwd('~/Project/cfMeDIP/CHARM/LFS/DMRs')
+setwd('')
 write.table(Feature_list, 'neg_HBC_DMRs.tsv', quote=F, row.names = F, sep='\t')
