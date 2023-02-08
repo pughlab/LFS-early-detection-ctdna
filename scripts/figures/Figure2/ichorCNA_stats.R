@@ -1,12 +1,12 @@
 library(tidyverse)
 
 ### Set variables
-path <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/ichorCNA"
-outdir <- "/Volumes/GoogleDrive/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/ichorCNA"
+path <- ""
+outdir <- ""
 
 ichorCNA <- read.delim(list.files(path, "summary_reviewed.txt", full.names = TRUE))
-mutations <- read.delim("/Users/derekwong/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/oncoplot/Oncoplot_full.txt")
-samples <- read.delim("/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/samples/sample_list.txt")
+mutations <- read.delim("Oncoplot_full.txt")
+samples <- read.delim("sample_list.txt")
 
 ### Remove failed data
 exclude <- c("TGL49_0035_Cf_U_PE_310_WG", "TGL49_0041_Cf_U_PE_317_WG", "TGL49_0209_Cf_U_PE_373_WG", "TGL49_0316_Pl_T_PE_301_CM", "TGL49_0060_Cf_n_PE_301_CM")
