@@ -1,10 +1,10 @@
 library(tidyverse)
 
 ### Set variables
-path <- "/Volumes/GoogleDrive/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/oncoplot"
+path <- ""
 
-mutations <- read.delim("/Users/derekwong/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/oncoplot/Oncoplot_full.txt")
-samples <- read.delim("/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/samples/sample_list.txt")
+mutations <- read.delim("Oncoplot_full.txt")
+samples <- read.delim("sample_list.txt")
 
 ### Format data
 mutations <- merge(mutations, samples, by.x = "sample_ID", by.y = "TS")
