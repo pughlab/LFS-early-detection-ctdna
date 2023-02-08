@@ -2,10 +2,9 @@ library(tidyverse)
 library(plyr)
 
 ### Set working variables
-path <- "/Users/derekwong/Desktop/H4H/projects/CHARM/LFS/insert_size/output/swgs"
-samples <- "/Users/derekwong/OneDrive - UHN/Post-Doc/CHARM_Project/LFS/samples/sample_list.txt"
-outdir <- "/Users/derekwong/OneDrive - UHN/Post-Doc/CHARM_Project/LFS/insert_size"
-mouliere <- "/Users/derekwong/OneDrive - UHN/Post-Doc/External_data/Mouliere_fragment/Mouliere_fragment.txt"
+path <- ""
+samples <- "sample_list.txt"
+outdir <- ""
 project <- "CHARM_LFS"
 
 filenames <- list.files(path = path, pattern = "*picard.txt", full.names = TRUE)
