@@ -18,7 +18,7 @@ tp53 <- read.delim(file.path(path, "fragment_score/CHARM_LFS_panel_score.txt"))
 fragment <- read.delim(file.path(path, "fragment_score/CHARM_LFS_genome_score.txt"))
 breast <- read.delim(file.path(path2, "cfMeDIP/breast_matrix.tsv"))
 all <- read.delim(file.path(path2, "cfMeDIP/pancancer_score_Vrba.tsv"))
-samples <- read.delim("/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/samples/sample_list.txt")
+samples <- read.delim("sample_list.txt")
 
 ### Calculate cumulative breast score
 breast <- data.frame(One = colSums(breast),
