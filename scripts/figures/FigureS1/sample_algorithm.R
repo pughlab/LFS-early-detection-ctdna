@@ -7,10 +7,10 @@ library(ggpubr)
 library(gridExtra)
 
 ### Set paths
-path <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS"
-outdir <- "/Users/derekwong/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/cohort stats"
+path <- ""
+outdir <- ""
 
-data_samples <- read.delim(file.path(path, "samples/sample_list.txt"))
+data_samples <- read.delim(file.path(path, "sample_list.txt"))
 data_samples <- data_samples[!(data_samples$sWGS %in% c("TGL49_0041_Cf_U_PE_317_WG", "TGL49_0035_Cf_U_PE_310_WG", "TGL49_0209_Cf_U_PE_373_WG")), ] ### these patients excluded due to CHIP/sample swaps
 data_samples <- data_samples[!(data_samples$cfMeDIP %in% c("TGL49_0316_Pl_T_PE_301_CM", "TGL49_0060_Cf_n_PE_301_CM")), ] # These samples excluded (unsure origins)
 
