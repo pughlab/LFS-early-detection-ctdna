@@ -8,11 +8,11 @@ library(gridExtra)
 library(ggh4x)
 
 ### Set paths
-path <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/insert_size"
-outdir <- "/Users/derekwong/Library/CloudStorage/GoogleDrive-derekwong90@gmail.com/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/fragment_cfmedip"
-healthy_path <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/Healthy_control_cohorts/CHARM_HBC/insert_size"
-normal_samples <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/Healthy_control_cohorts/CHARM_HBC/sample_list.txt"
-samples <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/samples/sample_list.txt"
+path <- ""
+outdir <- ""
+healthy_path <- ""
+normal_samples <- "hbc_sample_list.txt"
+samples <- "sample_list.txt"
 
 ## Import data
 cm <- read.delim(list.files(path, "LFS_fragment_cfmedip.txt", full.names = TRUE))
