@@ -1,7 +1,7 @@
 library(ggplot2)
 library(ggpubr)
 
-outdir <- "/Users/derekwong/Library/CloudStorage/GoogleDrive-derekwong90@gmail.com/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/integration"
+outdir <- ""
 
 ### Make confusion matrices
 # Positive samples
