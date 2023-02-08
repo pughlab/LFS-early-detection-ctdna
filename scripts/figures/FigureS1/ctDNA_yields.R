@@ -7,18 +7,18 @@ library(ggpubr)
 library(data.table)
 
 ### Set variables
-path <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS"
-outdir <- "/Volumes/GoogleDrive/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/ctDNA_yields"
+path <- ""
+outdir <- ""
 
 data_yield <- file.path(path, "ctDNA_yields/ctDNA_yields.txt")
 data_healthy <- file.path(path, "ctDNA_yields/hbc_yields.txt")
-data_samples <- file.path(path, "samples/sample_list.txt")
+data_samples <- file.path(path, "sample_list.txt")
 
 ### Read in data
 data_yield <- read.delim(data_yield)
 data_healthy <- read.delim(data_healthy)
 data_samples <- read.delim(data_samples)
-source("/Volumes/GoogleDrive/My Drive/Post-Doc/CHARM/LFS/Figures/TP53_griffin/geom_flat_violin.R")
+source("geom_flat_violin.R")
 
 ### Sum samples with multiple replicates
 data_yield$Volume[is.na(data_yield$Volume)] <- 0
