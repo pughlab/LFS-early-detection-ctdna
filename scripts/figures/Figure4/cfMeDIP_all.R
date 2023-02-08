@@ -9,18 +9,18 @@ library(readr)
 library(data.table)
 
 ### Set paths
-path <- "/Volumes/GoogleDrive/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/cfMeDIP"
-path2 <- "/Volumes/GoogleDrive/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures"
-path3 <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS"
+path <- ""
+path2 <- ""
+path3 <- ""
 
 ### Find files
 data_matrix <- read_tsv(file.path(path, "pancancer_matrix_Vrba.tsv"))
 data_scores <- read_tsv(file.path(path, "pancancer_score_Vrba.tsv"))
-data_samples <- read.delim("/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/samples/sample_list.txt")
+data_samples <- read.delim("sample_list.txt")
 
 ichorCNA <- read.delim(list.files(path3, "summary_reviewed.txt", recursive = TRUE, full.names = TRUE))
-mutation <- read.delim(file.path(path2, "oncoplot/Oncoplot_full.txt"))
-fragment <- read.delim(file.path(path2, "fragment_frequency/fragment_scores.txt"))
+mutation <- read.delim(file.path(path2, "Oncoplot_full.txt"))
+fragment <- read.delim(file.path(path2, "fragment_scores.txt"))
 
 ### Format other analyses
 ichorCNA$ichor <- ifelse(ichorCNA$TF > ichorCNA$TF_short, ichorCNA$TF, ichorCNA$TF_short)
