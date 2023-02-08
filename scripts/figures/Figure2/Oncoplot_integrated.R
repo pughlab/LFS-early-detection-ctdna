@@ -2,12 +2,12 @@ library(ComplexHeatmap)
 library(dplyr)
 library(stringr)
 
-path <- "/Users/derekwong/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/oncoplot_integrated"
-path_onco <- "/Users/derekwong/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/oncoplot/Oncoplot_full.txt"
-path_ichor <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/ichorCNA/CHARM_LFS_ichorCNA_summary_reviewed.txt"
-path_samples <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/samples/sample_list.txt"
-path_panel <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/fragment_score/CHARM_LFS_panel_score.txt"
-path_swgs <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/fragment_score/CHARM_LFS_genome_score.txt"
+path <- ""
+path_onco <- "Oncoplot_full.txt"
+path_ichor <- "CHARM_LFS_ichorCNA_summary_reviewed.txt"
+path_samples <- "sample_list.txt"
+path_panel <- "CHARM_LFS_panel_score.txt"
+path_swgs <- "CHARM_LFS_genome_score.txt"
 
 ## Import data
 onco <- read.delim(path_onco)
