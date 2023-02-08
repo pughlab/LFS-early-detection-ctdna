@@ -2,8 +2,8 @@ library(tidyverse)
 library(ggplot2)
 
 # Set variables
-path <- "/Users/derekwong/Desktop/H4H/projects/CHARM/LFS/mutation_fragment/output"
-outdir <- "/Users/derekwong/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/mutation_fragment"
+path <- ""
+outdir <- ""
 options(scipen=999)
 
 ### Import mutation list and format into germline/somatic
