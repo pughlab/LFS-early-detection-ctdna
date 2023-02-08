@@ -10,7 +10,7 @@ library(randomForest)
 library(limma)
 
 # ------------------- load data -------------------
-setwd('/cluster/projects/pughlab/projects/CHARM/LFS/Ping_medremix')
+setwd('')
 
 data <- read_parquet('neg_HBC.parquet')
 
