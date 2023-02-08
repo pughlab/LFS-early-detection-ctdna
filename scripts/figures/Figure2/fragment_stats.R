@@ -1,12 +1,12 @@
 library(tidyverse)
 
 ### Set variables
-path <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/fragment_score"
-outdir <- "/Users/derekwong/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/fragment_score"
-healthy_path <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/Healthy_control_cohorts/CHARM_HBC/fragment_score"
-ichor <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/ichorCNA/CHARM_LFS_ichorCNA_summary_reviewed.txt"
-mutations <- "/Users/derekwong/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/oncoplot/Oncoplot_full.txt"
-samples <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/samples/sample_list.txt"
+path <- ""
+outdir <- ""
+healthy_path <- ""
+ichor <- "CHARM_LFS_ichorCNA_summary_reviewed.txt"
+mutations <- "Oncoplot_full.txt"
+samples <- "samples/sample_list.txt"
 
 ### Read in data
 score_wg <- read.delim(list.files(path, "genome", full.names = TRUE))
