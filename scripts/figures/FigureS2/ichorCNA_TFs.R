@@ -4,8 +4,8 @@ library(ggpubr)
 library(cowplot)
 
 ### Set variables
-path <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/ichorCNA"
-outdir <- "/Volumes/GoogleDrive/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/ichorCNA"
+path <- ""
+outdir <- ""
 
 ichorCNA <- read.delim(list.files(path, "summary_reviewed.txt", full.names = TRUE))
 
