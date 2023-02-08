@@ -7,9 +7,9 @@ library(ggpubr)
 library(gridExtra)
 
 ### Set paths
-path <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS"
-path2 <- "/Users/derekwong/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures"
-outdir <- "/Users/derekwong/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/integration"
+path <- ""
+path2 <- ""
+outdir <- ""
 
 ### Find files
 ichorCNA <- read.delim(list.files(path, "summary_reviewed.txt", recursive = TRUE, full.names = TRUE))
@@ -19,7 +19,7 @@ fragment <- read.delim(file.path(path, "fragment_score/CHARM_LFS_genome_score.tx
 breast <- read.delim(file.path(path2, "cfMeDIP/breast_matrix.tsv"))
 all <- read.delim(file.path(path2, "cfMeDIP/pancancer_score_Vrba.tsv"))
 integrated <- readRDS(file.path(outdir, "integrated_scores.rds"))
-samples <- read.delim("/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/samples/sample_list.txt")
+samples <- read.delim("sample_list.txt")
 
 ### Calculate cumulative breast score
 breast <- data.frame(One = colSums(breast),
