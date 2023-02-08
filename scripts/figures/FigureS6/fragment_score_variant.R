@@ -6,10 +6,10 @@ library(grid)
 library(ggpubr)
 
 ### Set paths
-path <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/fragment_score"
-outdir <- "/Users/derekwong/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/fragment_score"
-samples <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/samples/sample_list.txt"
-source("/Users/derekwong/My Drive/Post-Doc/CHARM/LFS/Figures/TP53_griffin/geom_flat_violin.R")
+path <- ""
+outdir <- ""
+samples <- "sample_list.txt"
+source("geom_flat_violin.R")
 
 ### Import data
 germline <- read.delim(list.files(path, "germline", full.names = TRUE))
