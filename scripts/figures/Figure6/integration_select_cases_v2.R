@@ -10,18 +10,18 @@ library(ggh4x)
 library(ggplotify)
 
 ### Set paths
-path <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS"
-path2 <- "/Users/derekwong/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures"
-outdir <- "/Users/derekwong/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/integration"
+path <- ""
+path2 <- ""
+outdir <- ""
 
 ### Find files
 ichorCNA <- read.delim(list.files(path, "summary_reviewed.txt", recursive = TRUE, full.names = TRUE))
-mutation <- read.delim(file.path(path2, "oncoplot/Oncoplot_full.txt"))
-tp53 <- read.delim(file.path(path, "fragment_score/CHARM_LFS_panel_score.txt"))
-fragment <- read.delim(file.path(path, "fragment_score/CHARM_LFS_genome_score.txt"))
-breast <- read.delim(file.path(path2, "cfMeDIP/breast_matrix.tsv"))
-all <- read.delim(file.path(path2, "cfMeDIP/pancancer_score_Vrba.tsv"))
-samples <- read.delim("/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/samples/sample_list.txt")
+mutation <- read.delim(file.path(path2, "Oncoplot_full.txt"))
+tp53 <- read.delim(file.path(path, "CHARM_LFS_panel_score.txt"))
+fragment <- read.delim(file.path(path, "CHARM_LFS_genome_score.txt"))
+breast <- read.delim(file.path(path2, "breast_matrix.tsv"))
+all <- read.delim(file.path(path2, "pancancer_score_Vrba.tsv"))
+samples <- read.delim("sample_list.txt")
 
 ### Calculate cumulative breast score
 breast <- data.frame(One = colSums(breast),
