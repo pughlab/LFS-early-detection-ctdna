@@ -3,9 +3,9 @@ library(dplyr)
 library(vroom)
 
 ### Set working variables
-path <- "/Users/derekwong/Desktop/H4H/projects/CHARM/LFS/pipeline_output"
-OICR_path <- "/Users/derekwong/Desktop/H4H/external_data/TGL49_CHARM/LFS/LFS_TS/mafs"
-outdir <- "/Users/derekwong/OneDrive - UHN/Post-Doc/CHARM_Project/LFS/pipeline_analysis"
+path <- ""
+OICR_path <- ""
+outdir <- ""
 project <- "CHARM_LFS"
 
 dir.create(outdir, recursive = TRUE, showWarnings = FALSE)

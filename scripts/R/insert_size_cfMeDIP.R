@@ -2,8 +2,8 @@ library(tidyverse)
 library(plyr)
 
 ### Set working variables
-path <- "/Users/derekwong/Desktop/H4H/projects/CHARM_LFS_cfmedip_medremix/LFS_QC"
-outdir <- "/Users/derekwong/OneDrive - UHN/Post-Doc/CHARM_Project/LFS/insert_size"
+path <- ""
+outdir <- ""
 project <- "CHARM_LFS"
 
 filenames <- list.files(path = path, pattern = "picardInsertSize_metrics.txt", full.names = TRUE, recursive = TRUE)

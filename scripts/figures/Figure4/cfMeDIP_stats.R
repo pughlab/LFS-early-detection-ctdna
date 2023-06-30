@@ -1,12 +1,12 @@
 library(tidyverse)
 
 ### Set paths
-path <- "/Volumes/GoogleDrive/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/cfMeDIP"
+path <- ""
 
 ### Find files
 breast_scores <- read_tsv(file.path(path, "methylation_score_breast.tsv"))
 all_scores <- read_tsv(file.path(path, "pancancer_score_vrba.tsv"))
-data_samples <- read.delim("/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/samples/sample_list.txt")
+data_samples <- read.delim("sample_list.txt")
 
 ### Calculate thresholds
 limit_breast <- quantile(breast_scores$score[breast_scores$cancer_type == "HBC"], 0.95)

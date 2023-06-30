@@ -2,9 +2,9 @@ library(tidyverse)
 library(plyr)
 
 ### Set working variables
-path <- "/Users/derekwong/Desktop/H4H/projects/CHARM/LFS/ichorCNA/output"
-samples <- "/Users/derekwong/OneDrive - UHN/Post-Doc/CHARM_project/LFS/samples/sample_list.txt"
-outdir <- "/Users/derekwong/OneDrive - UHN/Post-Doc/CHARM_project/LFS/ichorCNA"
+path <- ""
+samples <- "sample_list.txt"
+outdir <- ""
 project <- "CHARM_LFS"
 
 ichorCNA <- file.path(path, "ichorCNA")

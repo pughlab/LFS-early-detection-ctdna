@@ -1,35 +1,35 @@
 library(ggplot2)
 library(ggpubr)
 
-outdir <- "/Users/derekwong/Library/CloudStorage/GoogleDrive-derekwong90@gmail.com/My Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/integration"
+outdir <- ""
 
 ### Make confusion matrices
 # Positive samples
 data_pos_sample <- data.frame(A = c("Positive", "Positive"),
                               B = c("Negative", "Positive"),
-                              Y = c(7, 27),
+                              Y = c(7, 31),
                               color = c("bad", "good"))
 sum_pos_sample <- sum(data_pos_sample$Y)
 
 # Positive patients
 data_pos_patient <- data.frame(A = c("Positive", "Positive"),
                                B = c("Negative", "Positive"),
-                               Y = c(6, 19),
+                               Y = c(3, 22),
                                color = c("bad", "good"))
 sum_pos_patient <- sum(data_pos_patient$Y)
 
 # Negative samples
 data_neg_sample <- data.frame(A = c("Negative", "Negative", "Positive", "Positive"),
                               B = c("Negative", "Positive", "Negative", "Positive"),
-                              Y = c(77, 21, 1, 23),
+                              Y = c(72, 19, 0, 40),
                               color = c("good", "bad", "bad", "good"))
 sum_neg_sample <- sum(data_neg_sample$Y)
 
 # Negative patients
 data_neg_patient <- data.frame(A = c("Negative", "Negative", "Positive", "Positive"),
-                       B = c("Negative", "Positive", "Negative", "Positive"),
-                       Y = c(40, 19, 1, 14),
-                       color = c("good", "bad", "bad", "good"))
+                               B = c("Negative", "Positive", "Negative", "Positive"),
+                               Y = c(33, 15, 0, 25),
+                               color = c("good", "bad", "bad", "good"))
 sum_neg_patient <- sum(data_neg_patient$Y)
 
 ### Set theme
@@ -101,8 +101,13 @@ mat_neg2 <- ggplot(data_neg_patient, aes(A, B)) +
   scale_y_discrete(expand = c(0,0))
 mat_neg2
 
-fig <- ggarrange(mat_neg, mat_neg2, align = "hv")
+fig <- grid.arrange(arrangeGrob(mat_neg + theme(plot.margin=unit(c(0.2,0.2,0.2,0.2), "cm")), 
+                                mat_neg2 + theme(axis.title.y = element_blank(),
+                                                 axis.text.y = element_blank(),
+                                                 plot.margin=unit(c(0.2,0.2,0.2,0.2), "cm")),
+                                widths = c(1.5, 1),
+                                nrow = 1))
 fig
-ggsave(file.path(outdir, "confusion_matrix_neg.pdf"), fig, width = 5.35, height = 3.25)
+ggsave(file.path(outdir, "confusion_matrix_neg.pdf"), fig, width = 5, height = 4)
 
 

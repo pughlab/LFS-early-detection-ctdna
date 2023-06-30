@@ -3,8 +3,8 @@ library(dplyr)
 library(readxl)
 
 ### Set working variables
-path <- "/Users/derekwong/Desktop/H4H/projects/CHARM/LFS"
-outdir <- "/Users/derekwong/OneDrive - UHN/Post-Doc/CHARM_Project/LFS/panel_cnv"
+path <- ""
+outdir <- ""
 project <- "CHARM_LFS"
 
 dir.create(outdir, recursive = TRUE, showWarnings = FALSE)

@@ -2,9 +2,9 @@ library(tidyverse)
 library(plyr)
 
 ### Set working variables
-path <- "/Users/derekwong/Desktop/H4H/projects/CHARM/LFS/gatk_coverage/output"
-samples <- "//Users/derekwong/OneDrive - UHN/Post-Doc/CHARM_Project/LFS/samples/sample_list.txt"
-outdir <- "/Users/derekwong/OneDrive - UHN/Post-Doc/CHARM_Project/LFS/GATK_coverage"
+path <- ""
+samples <- "sample_list.txt"
+outdir <- ""
 project <- "CHARM_LFS"
 
 ### Get file lists and names

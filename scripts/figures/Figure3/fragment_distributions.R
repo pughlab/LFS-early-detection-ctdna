@@ -7,11 +7,10 @@ library(ggpubr)
 library(gridExtra)
 
 ### Set paths
-path <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/insert_size"
-outdir <- "/Users/derekwong/Google Drive/Post-Doc/CHARM/LFS/LFS_clinical/figures/fragment_distributions"
-healthy_path <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/Healthy_control_cohorts/CHARM_HBC/insert_size"
-samples <- "/Users/derekwong/Library/CloudStorage/OneDrive-UHN/Post-Doc/CHARM_Project/LFS/samples/sample_list.txt"
-source("/Volumes/GoogleDrive/My Drive/Post-Doc/CHARM/LFS/Figures/TP53_griffin/geom_flat_violin.R")
+path <- ""
+outdir <- ""
+healthy_path <- ""
+samples <- "sample_list.txt"
 
 ### Find files
 frequency <- list.files(path, "LFS_fragment_freq.txt", full.names = TRUE)
@@ -27,7 +26,7 @@ data_frequency <- data_frequency[data_frequency$length %in% c(10:320), ]
 data_normal <- data_normal[data_normal$length %in% c(10:320), ]
 
 ### Remove failed and unknown samples and format 
-exclude <- c("TGL49_0025_Cf_U_PE_321_WG", "TGL49_0209_Cf_U_PE_373_WG")
+exclude <- c("TGL49_0025_Cf_U_PE_321_WG", "TGL49_0035_Cf_U_PE_310_WG", "TGL49_0041_Cf_U_PE_317_WG", "TGL49_0209_Cf_U_PE_373_WG")
 data_samples <- data_samples[!(data_samples$sWGS %in% exclude), ]
 data_samples <- data_samples[(data_samples$cancer_status %in% c("positive", "negative")), ]
 data_samples <- data_samples[data_samples$sWGS %in% colnames(data_frequency), ]
@@ -60,6 +59,24 @@ samples_pos <- data_samples[data_samples$cancer_status == "Positive", ]
 data_pos <- data_frequency[ , colnames(data_frequency) %in% samples_pos$sWGS]
 positive_median <- rowMedians(as.matrix(data_pos))
 positive_sd <- rowSds(as.matrix(data_pos))
+
+### Calculate mean, median, and mode fragment lengths
+getmode <- function(v) {
+  uniqv <- unique(v)
+  uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+
+meanfrag_normal <- mean(rep(c(10:320), round(normal_median*1000000, 0)))
+meanfrag_previvor <- mean(rep(c(10:320), round(previvor_median*1000000, 0)))
+meanfrag_positive <- mean(rep(c(10:320), round(positive_median*1000000, 0)))
+
+medfrag_normal <- median(rep(c(10:320), round(normal_median*1000000, 0)))
+medfrag_previvor <- median(rep(c(10:320), round(previvor_median*1000000, 0)))
+medfrag_positive <- median(rep(c(10:320), round(positive_median*1000000, 0)))
+
+modefrag_normal <- getmode(rep(c(10:320), round(normal_median*1000000, 0)))
+modefrag_previvor <- getmode(rep(c(10:320), round(previvor_median*1000000, 0)))
+modefrag_positive <- getmode(rep(c(10:320), round(positive_median*1000000, 0)))
 
 ### Make comparisons and table
 hbc_v_previvor <- (previvor_median - normal_median)/sqrt(((normal_sd^2)/ncol(data_normal)) + ((previvor_sd^2)/ncol(data_neg)))
@@ -176,10 +193,10 @@ Figure <- ggarrange(plot_freq + theme(axis.text.x = element_blank(),
 
 plot_combined <- ggdraw() +
   draw_plot(Figure) +
-  draw_plot(plot_inset, x = 0.17, y = .66, width = .27, height = .2)
+  draw_plot(plot_inset, x = 0.11, y = .66, width = .32, height = .2)
 plot_combined
 
-ggsave(file.path(outdir, "fragment_distributions.pdf"), plot_combined,  width = 4, height = 8)
+ggsave(file.path(outdir, "fragment_distributions.pdf"), plot_combined,  width = 6, height = 8)
 
 ### Melt data to plot individual curves
 data_melt <- data_frequency
